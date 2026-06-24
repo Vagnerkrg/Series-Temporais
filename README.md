@@ -2,10 +2,6 @@
 
 Este projeto implementa um pipeline completo de Ciência de Dados para modelagem estatística, tratamento de séries temporais e previsão de demanda horária de aluguel de bicicletas, utilizando o algoritmo **Prophet** da Meta e visualizações dinâmicas com **Plotly** e **Seaborn**.
 
-<p align="center">
-  <img src="Dados/pipeline_data_science.png" alt="Pipeline de Data Science" width="100%">
-</p>
-
 ---
 
 ## 🔄 Pipeline de Desenvolvimento Metodológico
@@ -44,7 +40,7 @@ O projeto foi estruturado seguindo as 6 fases do ciclo de vida de projetos de da
 ### 6. Compartilhamento & Resultados
 * **Métricas de Performance Finais:** 
   * **RMSE (Raiz do Erro Quadrático Médio):** Reduzido para **3.934,31 bicicletas**, demonstrando alta assertividade no horizonte preditivo de teste.
-* **Interface Dinâmica (Plotly):** Implementação de gráficos interativos para inspeção de tendências locais. Solucionado o *NameError* nativo da biblioteca injetando explicitamente a dependência `graph_objects` no backend do módulo (`prophet.plot.go = go`).
+* **Interface Dinâmica (Plotly):** Implementation de gráficos interativos para inspeção de tendências locais. Solucionado o *NameError* nativo da biblioteca injetando explicitamente a dependência `graph_objects` no backend do módulo (`prophet.plot.go = go`).
 
 ---
 
