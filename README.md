@@ -1,5 +1,7 @@
 ﻿# 🚲 Previsão de Demanda para Sistemas de Bicicletas Compartilhadas
 
+🐍 Python 📦 v1.0.0
+
 Este projeto implementa um pipeline completo de Ciência de Dados para modelagem estatística, tratamento de séries temporais e previsão de demanda horária de aluguel de bicicletas, utilizando o algoritmo **Prophet** da Meta e visualizações dinâmicas com **Plotly** e **Seaborn**.
 
 ---
